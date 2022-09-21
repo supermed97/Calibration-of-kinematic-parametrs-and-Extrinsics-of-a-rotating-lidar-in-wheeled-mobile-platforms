@@ -47,17 +47,16 @@ while(end_time <= sim_time){
 	cout << "time:" << end_time <<"s" <<endl;
 	}
 	file0.close();
- cout<< " ______________________ " << endl;
+
      int cnt=0;
      
      ofstream file("data.dat");
-    file << "#x y" << endl;
-    for (auto& elem: trajectory){  // read as "for (v in kd_points){ ....... }" v is a reference to each element, thisway we avoid copying each element in memory
+    
+    for (auto& elem: trajectory){  
     cnt ++;
       cout<< cnt << ": each element : " << elem << endl;
      file << elem(0) << ' ' << elem(1) << endl; }
- 
-    file.close();
+ file.close();
 
   
   
