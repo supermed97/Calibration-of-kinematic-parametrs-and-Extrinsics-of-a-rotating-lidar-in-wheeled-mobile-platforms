@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/sim.dir/simulator_test.cpp.o CMakeFiles/sim.dir/simulator.cpp.o  -o sim 
