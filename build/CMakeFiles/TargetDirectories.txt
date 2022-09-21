@@ -1,3 +1,4 @@
 /home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles/rebuild_cache.dir
-/home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles/sim.dir
 /home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles/edit_cache.dir
+/home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles/sim.dir
+/home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles/lines.dir

@@ -123,6 +123,46 @@ sim/fast:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
 .PHONY : sim/fast
 
+#=============================================================================
+# Target rules for targets named lines
+
+# Build rule for target.
+lines: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lines
+.PHONY : lines
+
+# fast build rule for target.
+lines/fast:
+	$(MAKE) -f CMakeFiles/lines.dir/build.make CMakeFiles/lines.dir/build
+.PHONY : lines/fast
+
+lines.o: lines.cpp.o
+
+.PHONY : lines.o
+
+# target to build an object file
+lines.cpp.o:
+	$(MAKE) -f CMakeFiles/lines.dir/build.make CMakeFiles/lines.dir/lines.cpp.o
+.PHONY : lines.cpp.o
+
+lines.i: lines.cpp.i
+
+.PHONY : lines.i
+
+# target to preprocess a source file
+lines.cpp.i:
+	$(MAKE) -f CMakeFiles/lines.dir/build.make CMakeFiles/lines.dir/lines.cpp.i
+.PHONY : lines.cpp.i
+
+lines.s: lines.cpp.s
+
+.PHONY : lines.s
+
+# target to generate assembly for a file
+lines.cpp.s:
+	$(MAKE) -f CMakeFiles/lines.dir/build.make CMakeFiles/lines.dir/lines.cpp.s
+.PHONY : lines.cpp.s
+
 simulator.o: simulator.cpp.o
 
 .PHONY : simulator.o
@@ -184,8 +224,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... sim"
 	@echo "... edit_cache"
+	@echo "... sim"
+	@echo "... lines"
+	@echo "... lines.o"
+	@echo "... lines.i"
+	@echo "... lines.s"
 	@echo "... simulator.o"
 	@echo "... simulator.i"
 	@echo "... simulator.s"
