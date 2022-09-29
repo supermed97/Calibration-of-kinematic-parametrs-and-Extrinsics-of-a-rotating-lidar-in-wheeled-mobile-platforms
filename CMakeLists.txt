@@ -6,9 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 include_directories(. /usr/include/eigen3)
-
-
-
 add_executable(sim simulator_test.cpp simulator.cpp)
+
 
 

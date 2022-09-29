@@ -1,3 +1,7 @@
+
+
+
+
 0 0
 0.5 0.2
 1 0.4
@@ -199,3 +203,10 @@
 99 39.6
 99.5 39.8
 100 40
+
+
+
+with open('rays.dat') as f:
+    lines = f.readlines()
+    x = [line.split()[0] for line in lines]
+    y = [line.split()[1] for line in lines]
