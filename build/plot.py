@@ -40,6 +40,6 @@ fig = plt.figure()
 
 plt.plot(x_traj,y_traj,linewidth=2, color='purple' )
 plt.scatter(x_line,y_line)
-plt.plot(x_ray,y_ray, linewidth=1,color='green')
+#plt.plot(x_ray,y_ray, linewidth=1,color='green')
 #plt.savefig('image.png')
 plt.show()
