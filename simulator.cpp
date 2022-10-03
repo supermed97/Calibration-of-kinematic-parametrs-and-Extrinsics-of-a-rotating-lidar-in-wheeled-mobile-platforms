@@ -126,7 +126,7 @@ Vector2f cast_ray(position *Pose_robot, Vector2f ray_dir, Vector2fVector& ray_po
 		point_intersect=P_robot+ray_dir*elem(1); // calculate the point of the intersection 
 		cout<<"SCALARS INTERSECT -> "<<elem << " POINT INTERSECT : ---> " << point_intersect << endl;
 		range = norm2d(P_robot,point_intersect); // calculate the norm or distance or range
-		ranges.push_back(range); // store each range in ranges
+		ranges.push_back(range); // store each range in ranges..
 		}
 	float min_range= *min_element(ranges.begin(), ranges.end()); // take minimum range in ranges
 	for (auto& elem:intersections){
