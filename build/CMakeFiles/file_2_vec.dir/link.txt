@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/file_2_vec.dir/file_2_vec.cpp.o  -o file_2_vec 

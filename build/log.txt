@@ -1,0 +1,1234 @@
+ FREQUENCY  : 1
+ SIMULATION_PERIOD  : 10
+I AM p0 : 118.038
+28.8766
+______________
+I AM p1 :  106.62
+109.688
+______________
+I AM DELTA : -11.4177
+ 80.8114
+______________
+I AM NORM : 81.614
+______________
+I AM THE DIRECTION : -0.00932818
+  0.0660224
+I AM p0 :  132.329
+-10.4897
+______________
+I AM p1 : 17.0445
+103.646
+______________
+I AM DELTA : -115.285
+ 114.136
+______________
+I AM NORM : 162.227
+______________
+I AM THE DIRECTION : -0.0473839
+ 0.0469115
+I AM p0 : 5.55494
+ 60.794
+______________
+I AM p1 : 45.4794
+75.7742
+______________
+I AM DELTA : 39.9245
+14.9802
+______________
+I AM NORM : 42.6423
+______________
+I AM THE DIRECTION : 0.0624796
+0.0234432
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.18
+tan(ray_angle) 0.18197
+x in create ray : 0 y : 0
+I AM RAY_DIRECTION in func----->       1
+0.18197
+x : 0 y : 0
+I AM RAY_DIRECTION ----->       1
+0.18197
+Here is the matrix A:
+-0.00932818          -1
+  0.0660224    -0.18197
+Here is the vector b:
+-118.038
+-28.8766
+The intersection scalars are :
+-109.235
+ 119.057
+Here is the matrix A:
+-0.0473839         -1
+ 0.0469115   -0.18197
+Here is the vector b:
+-132.329
+ 10.4897
+The intersection scalars are :
+622.496
+102.833
+Here is the matrix A:
+0.0624796        -1
+0.0234432  -0.18197
+Here is the vector b:
+-5.55494
+ -60.794
+The intersection scalars are :
+-4951.49
+-303.812
+I AM s -----> -4951.49
+-303.812
+SCALARS INTERSECT -> -109.235
+ 119.057 POINT INTERSECT : ---> 119.057
+21.6647
+SCALARS INTERSECT -> 622.496
+102.833 POINT INTERSECT : ---> 102.833
+18.7125
+SCALARS INTERSECT -> -4951.49
+-303.812 POINT INTERSECT : ---> -303.812
+-55.2845
+SCALAR for minimum range -> 622.496
+102.833I AM POINTTTT0
+0
+Time:1s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.36
+tan(ray_angle) 0.376403
+x in create ray : 1.1 y : 0
+I AM RAY_DIRECTION in func----->       -0.1
+-0.0376403
+x : 1.1 y : 0
+I AM RAY_DIRECTION ----->       -0.1
+-0.0376403
+Here is the matrix A:
+-0.00932818         0.1
+  0.0660224   0.0376403
+Here is the vector b:
+-116.938
+-28.8766
+The intersection scalars are :
+ 217.723
+-1149.07
+Here is the matrix A:
+-0.0473839        0.1
+ 0.0469115  0.0376403
+Here is the vector b:
+-131.229
+ 10.4897
+The intersection scalars are :
+ 924.907
+-874.038
+Here is the matrix A:
+0.0624796       0.1
+0.0234432 0.0376403
+Here is the vector b:
+-4.45494
+ -60.794
+The intersection scalars are :
+ 795260
+-496920
+I AM s ----->  795260
+-496920
+SCALARS INTERSECT ->  217.723
+-1149.07 POINT INTERSECT : ---> 116.007
+43.2512
+SCALARS INTERSECT ->  924.907
+-874.038 POINT INTERSECT : ---> 88.5038
+ 32.899
+SCALARS INTERSECT ->  795260
+-496920 POINT INTERSECT : ---> 49693.1
+18704.2
+SCALAR for minimum range ->  924.907
+-874.038I AM POINTTTT1.1
+  0
+Time:2s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.54
+tan(ray_angle) 0.59943
+x in create ray : 2.19472 y : -0.131842
+I AM RAY_DIRECTION in func----->  -1.19472
+-0.716153
+x : 2.19472 y : -0.131842
+I AM RAY_DIRECTION ----->  -1.19472
+-0.716153
+Here is the matrix A:
+-0.00932818     1.19472
+  0.0660224    0.716153
+Here is the vector b:
+-115.843
+-29.0084
+The intersection scalars are :
+ 564.571
+-92.5539
+Here is the matrix A:
+-0.0473839    1.19472
+ 0.0469115   0.716153
+Here is the vector b:
+-130.135
+ 10.3579
+The intersection scalars are :
+ 1173.27
+-62.3916
+Here is the matrix A:
+0.0624796   1.19472
+0.0234432  0.716153
+Here is the vector b:
+-3.36022
+-60.9258
+The intersection scalars are :
+ 4205.28
+-222.733
+I AM s ----->  4205.28
+-222.733
+SCALARS INTERSECT ->  564.571
+-92.5539 POINT INTERSECT : ---> 112.771
+66.1509
+SCALARS INTERSECT ->  1173.27
+-62.3916 POINT INTERSECT : ---> 76.7355
+44.5501
+SCALARS INTERSECT ->  4205.28
+-222.733 POINT INTERSECT : ---> 268.299
+159.379
+SCALAR for minimum range ->  1173.27
+-62.3916I AM POINTTTT  2.19472
+-0.131842
+Time:3s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.72
+tan(ray_angle) 0.877068
+x in create ray : 3.26841 y : -0.394103
+I AM RAY_DIRECTION in func-----> -2.26841
+-1.98955
+x : 3.26841 y : -0.394103
+I AM RAY_DIRECTION -----> -2.26841
+-1.98955
+Here is the matrix A:
+-0.00932818     2.26841
+  0.0660224     1.98955
+Here is the vector b:
+-114.769
+-29.2707
+The intersection scalars are :
+ 962.075
+-46.6383
+Here is the matrix A:
+-0.0473839    2.26841
+ 0.0469115    1.98955
+Here is the vector b:
+-129.061
+ 10.0956
+The intersection scalars are :
+ 1393.58
+-27.7849
+Here is the matrix A:
+0.0624796   2.26841
+0.0234432   1.98955
+Here is the vector b:
+-2.28653
+-61.1881
+The intersection scalars are :
+1887.46
+-52.995
+I AM s -----> 1887.46
+-52.995
+SCALARS INTERSECT ->  962.075
+-46.6383 POINT INTERSECT : ---> 109.063
+92.3951
+SCALARS INTERSECT ->  1393.58
+-27.7849 POINT INTERSECT : ---> 66.2961
+54.8854
+SCALARS INTERSECT -> 1887.46
+-52.995 POINT INTERSECT : ---> 123.483
+105.042
+SCALAR for minimum range ->  1393.58
+-27.7849I AM POINTTTT  3.26841
+-0.394103
+Time:4s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.9
+tan(ray_angle) 1.26016
+x in create ray : 4.30557 y : -0.783483
+I AM RAY_DIRECTION in func-----> -3.30557
+-4.16555
+x : 4.30557 y : -0.783483
+I AM RAY_DIRECTION -----> -3.30557
+-4.16555
+Here is the matrix A:
+-0.00932818     3.30557
+  0.0660224     4.16555
+Here is the vector b:
+-113.732
+-29.6601
+The intersection scalars are :
+ 1461.35
+-30.2823
+Here is the matrix A:
+-0.0473839    3.30557
+ 0.0469115    4.16555
+Here is the vector b:
+-128.024
+ 9.70624
+The intersection scalars are :
+ 1604.13
+-15.7352
+Here is the matrix A:
+0.0624796   3.30557
+0.0234432   4.16555
+Here is the vector b:
+-1.24937
+-61.5775
+The intersection scalars are :
+ 1085.22
+-20.8901
+I AM s ----->  1085.22
+-20.8901
+SCALARS INTERSECT ->  1461.35
+-30.2823 POINT INTERSECT : ---> 104.406
+125.359
+SCALARS INTERSECT ->  1604.13
+-15.7352 POINT INTERSECT : ---> 56.3196
+64.7624
+SCALARS INTERSECT ->  1085.22
+-20.8901 POINT INTERSECT : ---> 73.3592
+ 86.235
+SCALAR for minimum range ->  1604.13
+-15.7352I AM POINTTTT  4.30557
+-0.783483
+Time:5s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.08
+tan(ray_angle) 1.87122
+x in create ray : 5.29122 y : -1.29485
+I AM RAY_DIRECTION in func-----> -4.29122
+-8.02981
+x : 5.29122 y : -1.29485
+I AM RAY_DIRECTION -----> -4.29122
+-8.02981
+Here is the matrix A:
+-0.00932818     4.29122
+  0.0660224     8.02981
+Here is the vector b:
+-112.746
+-30.1714
+The intersection scalars are :
+ 2165.87
+-21.5656
+Here is the matrix A:
+-0.0473839    4.29122
+ 0.0469115    8.02981
+Here is the vector b:
+-127.038
+ 9.19488
+The intersection scalars are :
+ 1821.19
+-9.49459
+Here is the matrix A:
+0.0624796   4.29122
+0.0234432   8.02981
+Here is the vector b:
+-0.263724
+ -62.0888
+The intersection scalars are :
+ 658.987
+-9.65622
+I AM s ----->  658.987
+-9.65622
+SCALARS INTERSECT ->  2165.87
+-21.5656 POINT INTERSECT : ---> 97.8339
+171.873
+SCALARS INTERSECT ->  1821.19
+-9.49459 POINT INTERSECT : ---> 46.0346
+74.9449
+SCALARS INTERSECT ->  658.987
+-9.65622 POINT INTERSECT : ---> 46.7282
+76.2427
+SCALAR for minimum range ->  1821.19
+-9.49459I AM POINTTTT 5.29122
+-1.29485
+Time:6s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.26
+tan(ray_angle) 3.11327
+x in create ray : 6.21107 y : -1.92131
+I AM RAY_DIRECTION in func-----> -5.21107
+-16.2235
+x : 6.21107 y : -1.92131
+I AM RAY_DIRECTION -----> -5.21107
+-16.2235
+Here is the matrix A:
+-0.00932818     5.21107
+  0.0660224     16.2235
+Here is the vector b:
+-111.826
+-30.7979
+The intersection scalars are :
+ 3338.27
+-15.4837
+Here is the matrix A:
+-0.0473839    5.21107
+ 0.0469115    16.2235
+Here is the vector b:
+-126.118
+ 8.56841
+The intersection scalars are :
+ 2063.51
+-5.43867
+Here is the matrix A:
+0.0624796   5.21107
+0.0234432   16.2235
+Here is the vector b:
+0.656123
+-62.7153
+The intersection scalars are :
+ 378.541
+-4.41272
+I AM s ----->  378.541
+-4.41272
+SCALARS INTERSECT ->  3338.27
+-15.4837 POINT INTERSECT : ---> 86.8975
+249.277
+SCALARS INTERSECT ->  2063.51
+-5.43867 POINT INTERSECT : ---> 34.5523
+86.3127
+SCALARS INTERSECT ->  378.541
+-4.41272 POINT INTERSECT : --->  29.206
+69.6682
+SCALAR for minimum range ->  378.541
+-4.41272I AM POINTTTT 6.21107
+-1.92131
+Time:7s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.44
+tan(ray_angle) 7.60182
+x in create ray : 7.05175 y : -2.65432
+I AM RAY_DIRECTION in func-----> -6.05175
+-46.0043
+x : 7.05175 y : -2.65432
+I AM RAY_DIRECTION -----> -6.05175
+-46.0043
+Here is the matrix A:
+-0.00932818     6.05175
+  0.0660224     46.0043
+Here is the vector b:
+-110.986
+-31.5309
+The intersection scalars are :
+ 5931.08
+-9.19728
+Here is the matrix A:
+-0.0473839    6.05175
+ 0.0469115    46.0043
+Here is the vector b:
+-125.278
+ 7.83541
+The intersection scalars are :
+ 2358.48
+-2.23467
+Here is the matrix A:
+0.0624796   6.05175
+0.0234432   46.0043
+Here is the vector b:
+ 1.49681
+-63.4483
+The intersection scalars are :
+ 165.723
+-1.46363
+I AM s ----->  165.723
+-1.46363
+SCALARS INTERSECT ->  5931.08
+-9.19728 POINT INTERSECT : ---> 62.7114
+ 420.46
+SCALARS INTERSECT ->  2358.48
+-2.23467 POINT INTERSECT : ---> 20.5754
+ 100.15
+SCALARS INTERSECT ->  165.723
+-1.46363 POINT INTERSECT : ---> 15.9093
+64.6791
+SCALAR for minimum range ->  165.723
+-1.46363 I AM RANGE : 67.9135
+I AM POINTTTT15.9093
+64.6791
+Time:8s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.62
+tan(ray_angle) -20.3073
+x in create ray : 7.80102 y : -3.48379
+I AM RAY_DIRECTION in func-----> -6.80102
+ 138.111
+x : 7.80102 y : -3.48379
+I AM RAY_DIRECTION -----> -6.80102
+ 138.111
+Here is the matrix A:
+-0.00932818     6.80102
+  0.0660224    -138.111
+Here is the vector b:
+-110.237
+-32.3604
+The intersection scalars are :
+18402.1
+9.03127
+Here is the matrix A:
+-0.0473839    6.80102
+ 0.0469115   -138.111
+Here is the vector b:
+-124.528
+ 7.00594
+The intersection scalars are :
+ 2755.11
+0.885093
+Here is the matrix A:
+0.0624796   6.80102
+0.0234432  -138.111
+Here is the vector b:
+ 2.24607
+-64.2778
+The intersection scalars are :
+-14.4448
+0.462956
+I AM s -----> -14.4448
+0.462956
+SCALARS INTERSECT -> 18402.1
+9.03127 POINT INTERSECT : ---> -53.6208
+ 1243.83
+SCALARS INTERSECT ->  2755.11
+0.885093 POINT INTERSECT : ---> 1.78149
+118.757
+SCALARS INTERSECT -> -14.4448
+0.462956 POINT INTERSECT : ---> 4.65244
+60.4554
+SCALAR for minimum range -> -14.4448
+0.462956 I AM RANGE : 64.0166
+I AM POINTTTT4.65244
+60.4554
+Time:9s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.8
+tan(ray_angle) -4.28626
+x in create ray : 8.44789 y : -4.39826
+I AM RAY_DIRECTION in func-----> -7.44789
+ 31.9236
+x : 8.44789 y : -4.39826
+I AM RAY_DIRECTION -----> -7.44789
+ 31.9236
+Here is the matrix A:
+-0.00932818     7.44789
+  0.0660224    -31.9236
+Here is the vector b:
+ -109.59
+-33.2748
+The intersection scalars are :
+-19317.1
+-38.9081
+Here is the matrix A:
+-0.0473839    7.44789
+ 0.0469115   -31.9236
+Here is the vector b:
+-123.882
+ 6.09147
+The intersection scalars are :
+3360.67
+4.74766
+Here is the matrix A:
+0.0624796   7.44789
+0.0234432  -31.9236
+Here is the vector b:
+ 2.89295
+-65.1923
+The intersection scalars are :
+-181.263
+ 1.90902
+I AM s -----> -181.263
+ 1.90902
+SCALARS INTERSECT -> -19317.1
+-38.9081 POINT INTERSECT : --->  298.231
+-1246.49
+SCALARS INTERSECT -> 3360.67
+4.74766 POINT INTERSECT : ---> -26.9122
+ 147.164
+SCALARS INTERSECT -> -181.263
+ 1.90902 POINT INTERSECT : ---> -5.77028
+ 56.5446
+SCALAR for minimum range -> -181.263
+ 1.90902 I AM RANGE : 62.5795
+I AM POINTTTT-5.77028
+ 56.5446
+Time:10s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.98
+tan(ray_angle) -2.30582
+x in create ray : 8.9829 y : -5.38462
+I AM RAY_DIRECTION in func-----> -7.9829
+18.4072
+x : 8.9829 y : -5.38462
+I AM RAY_DIRECTION -----> -7.9829
+18.4072
+Here is the matrix A:
+-0.00932818      7.9829
+  0.0660224    -18.4072
+Here is the vector b:
+-109.055
+-34.2612
+The intersection scalars are :
+-6418.81
+-21.1615
+Here is the matrix A:
+-0.0473839     7.9829
+ 0.0469115   -18.4072
+Here is the vector b:
+-123.347
+ 5.10511
+The intersection scalars are :
+4479.91
+11.1399
+Here is the matrix A:
+0.0624796    7.9829
+0.0234432  -18.4072
+Here is the vector b:
+ 3.42796
+-66.1786
+The intersection scalars are :
+-347.885
+  3.1522
+I AM s -----> -347.885
+  3.1522
+SCALARS INTERSECT -> -6418.81
+-21.1615 POINT INTERSECT : --->  177.913
+-394.908
+SCALARS INTERSECT -> 4479.91
+11.1399 POINT INTERSECT : ---> -79.9458
+ 199.669
+SCALARS INTERSECT -> -347.885
+  3.1522 POINT INTERSECT : ---> -16.1808
+ 52.6385
+SCALAR for minimum range -> -347.885
+  3.1522 I AM RANGE : 63.2447
+I AM POINTTTT-16.1808
+ 52.6385
+Time:11s
+1: each element : 0
+0
+2: each element : 1.1
+  0
+3: each element :   2.19472
+-0.131842
+4: each element :   3.26841
+-0.394103
+5: each element :   4.30557
+-0.783483
+6: each element :  5.29122
+-1.29485
+7: each element :  6.21107
+-1.92131
+8: each element :  7.05175
+-2.65432
+9: each element :  7.80102
+-3.48379
+10: each element :  8.44789
+-4.39826
+11: each element :   8.9829
+-5.38462
+ FREQUENCY  : 1
+ SIMULATION_PERIOD  : 10
+I AM p0 : 118.038
+28.8766
+______________
+I AM p1 :  106.62
+109.688
+______________
+I AM DELTA : -11.4177
+ 80.8114
+______________
+I AM NORM : 81.614
+______________
+I AM THE DIRECTION : -0.00932818
+  0.0660224
+I AM p0 :  132.329
+-10.4897
+______________
+I AM p1 : 17.0445
+103.646
+______________
+I AM DELTA : -115.285
+ 114.136
+______________
+I AM NORM : 162.227
+______________
+I AM THE DIRECTION : -0.0473839
+ 0.0469115
+I AM p0 : 5.55494
+ 60.794
+______________
+I AM p1 : 45.4794
+75.7742
+______________
+I AM DELTA : 39.9245
+14.9802
+______________
+I AM NORM : 42.6423
+______________
+I AM THE DIRECTION : 0.0624796
+0.0234432
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.18
+tan(ray_angle) 0.18197
+x in create ray : 0 y : 0
+I AM RAY_DIRECTION in func----->       1
+0.18197
+x : 0 y : 0
+I AM RAY_DIRECTION ----->       1
+0.18197
+Here is the matrix A:
+-0.00932818          -1
+  0.0660224    -0.18197
+Here is the vector b:
+-118.038
+-28.8766
+The intersection scalars are :
+-109.235
+ 119.057
+Here is the matrix A:
+-0.0473839         -1
+ 0.0469115   -0.18197
+Here is the vector b:
+-132.329
+ 10.4897
+The intersection scalars are :
+622.496
+102.833
+Here is the matrix A:
+0.0624796        -1
+0.0234432  -0.18197
+Here is the vector b:
+-5.55494
+ -60.794
+The intersection scalars are :
+-4951.49
+-303.812
+SCALARS INTERSECT -> -109.235
+ 119.057 POINT INTERSECT : ---> 119.057
+21.6647
+SCALARS INTERSECT -> 622.496
+102.833 POINT INTERSECT : ---> 102.833
+18.7125
+SCALARS INTERSECT -> -4951.49
+-303.812 POINT INTERSECT : ---> -303.812
+-55.2845
+SCALAR for minimum range -> 622.496
+102.833I AM POINTTTT0
+0
+Time:1s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.36
+tan(ray_angle) 0.376403
+x in create ray : 1.1 y : 0
+I AM RAY_DIRECTION in func----->       -0.1
+-0.0376403
+x : 1.1 y : 0
+I AM RAY_DIRECTION ----->       -0.1
+-0.0376403
+Here is the matrix A:
+-0.00932818         0.1
+  0.0660224   0.0376403
+Here is the vector b:
+-116.938
+-28.8766
+The intersection scalars are :
+ 217.723
+-1149.07
+Here is the matrix A:
+-0.0473839        0.1
+ 0.0469115  0.0376403
+Here is the vector b:
+-131.229
+ 10.4897
+The intersection scalars are :
+ 924.907
+-874.038
+Here is the matrix A:
+0.0624796       0.1
+0.0234432 0.0376403
+Here is the vector b:
+-4.45494
+ -60.794
+The intersection scalars are :
+ 795260
+-496920
+SCALARS INTERSECT ->  217.723
+-1149.07 POINT INTERSECT : ---> 116.007
+43.2512
+SCALARS INTERSECT ->  924.907
+-874.038 POINT INTERSECT : ---> 88.5038
+ 32.899
+SCALARS INTERSECT ->  795260
+-496920 POINT INTERSECT : ---> 49693.1
+18704.2
+SCALAR for minimum range ->  924.907
+-874.038I AM POINTTTT1.1
+  0
+Time:2s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.54
+tan(ray_angle) 0.59943
+x in create ray : 2.19472 y : -0.131842
+I AM RAY_DIRECTION in func----->  -1.19472
+-0.716153
+x : 2.19472 y : -0.131842
+I AM RAY_DIRECTION ----->  -1.19472
+-0.716153
+Here is the matrix A:
+-0.00932818     1.19472
+  0.0660224    0.716153
+Here is the vector b:
+-115.843
+-29.0084
+The intersection scalars are :
+ 564.571
+-92.5539
+Here is the matrix A:
+-0.0473839    1.19472
+ 0.0469115   0.716153
+Here is the vector b:
+-130.135
+ 10.3579
+The intersection scalars are :
+ 1173.27
+-62.3916
+Here is the matrix A:
+0.0624796   1.19472
+0.0234432  0.716153
+Here is the vector b:
+-3.36022
+-60.9258
+The intersection scalars are :
+ 4205.28
+-222.733
+SCALARS INTERSECT ->  564.571
+-92.5539 POINT INTERSECT : ---> 112.771
+66.1509
+SCALARS INTERSECT ->  1173.27
+-62.3916 POINT INTERSECT : ---> 76.7355
+44.5501
+SCALARS INTERSECT ->  4205.28
+-222.733 POINT INTERSECT : ---> 268.299
+159.379
+SCALAR for minimum range ->  1173.27
+-62.3916I AM POINTTTT  2.19472
+-0.131842
+Time:3s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.72
+tan(ray_angle) 0.877068
+x in create ray : 3.26841 y : -0.394103
+I AM RAY_DIRECTION in func-----> -2.26841
+-1.98955
+x : 3.26841 y : -0.394103
+I AM RAY_DIRECTION -----> -2.26841
+-1.98955
+Here is the matrix A:
+-0.00932818     2.26841
+  0.0660224     1.98955
+Here is the vector b:
+-114.769
+-29.2707
+The intersection scalars are :
+ 962.075
+-46.6383
+Here is the matrix A:
+-0.0473839    2.26841
+ 0.0469115    1.98955
+Here is the vector b:
+-129.061
+ 10.0956
+The intersection scalars are :
+ 1393.58
+-27.7849
+Here is the matrix A:
+0.0624796   2.26841
+0.0234432   1.98955
+Here is the vector b:
+-2.28653
+-61.1881
+The intersection scalars are :
+1887.46
+-52.995
+SCALARS INTERSECT ->  962.075
+-46.6383 POINT INTERSECT : ---> 109.063
+92.3951
+SCALARS INTERSECT ->  1393.58
+-27.7849 POINT INTERSECT : ---> 66.2961
+54.8854
+SCALARS INTERSECT -> 1887.46
+-52.995 POINT INTERSECT : ---> 123.483
+105.042
+SCALAR for minimum range ->  1393.58
+-27.7849I AM POINTTTT  3.26841
+-0.394103
+Time:4s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle0.9
+tan(ray_angle) 1.26016
+x in create ray : 4.30557 y : -0.783483
+I AM RAY_DIRECTION in func-----> -3.30557
+-4.16555
+x : 4.30557 y : -0.783483
+I AM RAY_DIRECTION -----> -3.30557
+-4.16555
+Here is the matrix A:
+-0.00932818     3.30557
+  0.0660224     4.16555
+Here is the vector b:
+-113.732
+-29.6601
+The intersection scalars are :
+ 1461.35
+-30.2823
+Here is the matrix A:
+-0.0473839    3.30557
+ 0.0469115    4.16555
+Here is the vector b:
+-128.024
+ 9.70624
+The intersection scalars are :
+ 1604.13
+-15.7352
+Here is the matrix A:
+0.0624796   3.30557
+0.0234432   4.16555
+Here is the vector b:
+-1.24937
+-61.5775
+The intersection scalars are :
+ 1085.22
+-20.8901
+SCALARS INTERSECT ->  1461.35
+-30.2823 POINT INTERSECT : ---> 104.406
+125.359
+SCALARS INTERSECT ->  1604.13
+-15.7352 POINT INTERSECT : ---> 56.3196
+64.7624
+SCALARS INTERSECT ->  1085.22
+-20.8901 POINT INTERSECT : ---> 73.3592
+ 86.235
+SCALAR for minimum range ->  1604.13
+-15.7352I AM POINTTTT  4.30557
+-0.783483
+Time:5s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.08
+tan(ray_angle) 1.87122
+x in create ray : 5.29122 y : -1.29485
+I AM RAY_DIRECTION in func-----> -4.29122
+-8.02981
+x : 5.29122 y : -1.29485
+I AM RAY_DIRECTION -----> -4.29122
+-8.02981
+Here is the matrix A:
+-0.00932818     4.29122
+  0.0660224     8.02981
+Here is the vector b:
+-112.746
+-30.1714
+The intersection scalars are :
+ 2165.87
+-21.5656
+Here is the matrix A:
+-0.0473839    4.29122
+ 0.0469115    8.02981
+Here is the vector b:
+-127.038
+ 9.19488
+The intersection scalars are :
+ 1821.19
+-9.49459
+Here is the matrix A:
+0.0624796   4.29122
+0.0234432   8.02981
+Here is the vector b:
+-0.263724
+ -62.0888
+The intersection scalars are :
+ 658.987
+-9.65622
+SCALARS INTERSECT ->  2165.87
+-21.5656 POINT INTERSECT : ---> 97.8339
+171.873
+SCALARS INTERSECT ->  1821.19
+-9.49459 POINT INTERSECT : ---> 46.0346
+74.9449
+SCALARS INTERSECT ->  658.987
+-9.65622 POINT INTERSECT : ---> 46.7282
+76.2427
+SCALAR for minimum range ->  1821.19
+-9.49459I AM POINTTTT 5.29122
+-1.29485
+Time:6s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.26
+tan(ray_angle) 3.11327
+x in create ray : 6.21107 y : -1.92131
+I AM RAY_DIRECTION in func-----> -5.21107
+-16.2235
+x : 6.21107 y : -1.92131
+I AM RAY_DIRECTION -----> -5.21107
+-16.2235
+Here is the matrix A:
+-0.00932818     5.21107
+  0.0660224     16.2235
+Here is the vector b:
+-111.826
+-30.7979
+The intersection scalars are :
+ 3338.27
+-15.4837
+Here is the matrix A:
+-0.0473839    5.21107
+ 0.0469115    16.2235
+Here is the vector b:
+-126.118
+ 8.56841
+The intersection scalars are :
+ 2063.51
+-5.43867
+Here is the matrix A:
+0.0624796   5.21107
+0.0234432   16.2235
+Here is the vector b:
+0.656123
+-62.7153
+The intersection scalars are :
+ 378.541
+-4.41272
+SCALARS INTERSECT ->  3338.27
+-15.4837 POINT INTERSECT : ---> 86.8975
+249.277
+SCALARS INTERSECT ->  2063.51
+-5.43867 POINT INTERSECT : ---> 34.5523
+86.3127
+SCALARS INTERSECT ->  378.541
+-4.41272 POINT INTERSECT : --->  29.206
+69.6682
+SCALAR for minimum range ->  378.541
+-4.41272I AM POINTTTT 6.21107
+-1.92131
+Time:7s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.44
+tan(ray_angle) 7.60182
+x in create ray : 7.05175 y : -2.65432
+I AM RAY_DIRECTION in func-----> -6.05175
+-46.0043
+x : 7.05175 y : -2.65432
+I AM RAY_DIRECTION -----> -6.05175
+-46.0043
+Here is the matrix A:
+-0.00932818     6.05175
+  0.0660224     46.0043
+Here is the vector b:
+-110.986
+-31.5309
+The intersection scalars are :
+ 5931.08
+-9.19728
+Here is the matrix A:
+-0.0473839    6.05175
+ 0.0469115    46.0043
+Here is the vector b:
+-125.278
+ 7.83541
+The intersection scalars are :
+ 2358.48
+-2.23467
+Here is the matrix A:
+0.0624796   6.05175
+0.0234432   46.0043
+Here is the vector b:
+ 1.49681
+-63.4483
+The intersection scalars are :
+ 165.723
+-1.46363
+SCALARS INTERSECT ->  5931.08
+-9.19728 POINT INTERSECT : ---> 62.7114
+ 420.46
+SCALARS INTERSECT ->  2358.48
+-2.23467 POINT INTERSECT : ---> 20.5754
+ 100.15
+SCALARS INTERSECT ->  165.723
+-1.46363 POINT INTERSECT : ---> 15.9093
+64.6791
+SCALAR for minimum range ->  165.723
+-1.46363 I AM RANGE : 67.9135
+I AM POINTTTT15.9093
+64.6791
+Time:8s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.62
+tan(ray_angle) -20.3073
+x in create ray : 7.80102 y : -3.48379
+I AM RAY_DIRECTION in func-----> -6.80102
+ 138.111
+x : 7.80102 y : -3.48379
+I AM RAY_DIRECTION -----> -6.80102
+ 138.111
+Here is the matrix A:
+-0.00932818     6.80102
+  0.0660224    -138.111
+Here is the vector b:
+-110.237
+-32.3604
+The intersection scalars are :
+18402.1
+9.03127
+Here is the matrix A:
+-0.0473839    6.80102
+ 0.0469115   -138.111
+Here is the vector b:
+-124.528
+ 7.00594
+The intersection scalars are :
+ 2755.11
+0.885093
+Here is the matrix A:
+0.0624796   6.80102
+0.0234432  -138.111
+Here is the vector b:
+ 2.24607
+-64.2778
+The intersection scalars are :
+-14.4448
+0.462956
+SCALARS INTERSECT -> 18402.1
+9.03127 POINT INTERSECT : ---> -53.6208
+ 1243.83
+SCALARS INTERSECT ->  2755.11
+0.885093 POINT INTERSECT : ---> 1.78149
+118.757
+SCALARS INTERSECT -> -14.4448
+0.462956 POINT INTERSECT : ---> 4.65244
+60.4554
+SCALAR for minimum range -> -14.4448
+0.462956 I AM RANGE : 64.0166
+I AM POINTTTT4.65244
+60.4554
+Time:9s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.8
+tan(ray_angle) -4.28626
+x in create ray : 8.44789 y : -4.39826
+I AM RAY_DIRECTION in func-----> -7.44789
+ 31.9236
+x : 8.44789 y : -4.39826
+I AM RAY_DIRECTION -----> -7.44789
+ 31.9236
+Here is the matrix A:
+-0.00932818     7.44789
+  0.0660224    -31.9236
+Here is the vector b:
+ -109.59
+-33.2748
+The intersection scalars are :
+-19317.1
+-38.9081
+Here is the matrix A:
+-0.0473839    7.44789
+ 0.0469115   -31.9236
+Here is the vector b:
+-123.882
+ 6.09147
+The intersection scalars are :
+3360.67
+4.74766
+Here is the matrix A:
+0.0624796   7.44789
+0.0234432  -31.9236
+Here is the vector b:
+ 2.89295
+-65.1923
+The intersection scalars are :
+-181.263
+ 1.90902
+SCALARS INTERSECT -> -19317.1
+-38.9081 POINT INTERSECT : --->  298.231
+-1246.49
+SCALARS INTERSECT -> 3360.67
+4.74766 POINT INTERSECT : ---> -26.9122
+ 147.164
+SCALARS INTERSECT -> -181.263
+ 1.90902 POINT INTERSECT : ---> -5.77028
+ 56.5446
+SCALAR for minimum range -> -181.263
+ 1.90902 I AM RANGE : 62.5795
+I AM POINTTTT-5.77028
+ 56.5446
+Time:10s
+OMEGA_R: 0.4 OMEGA_L : 0.7
+ray_angle1.98
+tan(ray_angle) -2.30582
+x in create ray : 8.9829 y : -5.38462
+I AM RAY_DIRECTION in func-----> -7.9829
+18.4072
+x : 8.9829 y : -5.38462
+I AM RAY_DIRECTION -----> -7.9829
+18.4072
+Here is the matrix A:
+-0.00932818      7.9829
+  0.0660224    -18.4072
+Here is the vector b:
+-109.055
+-34.2612
+The intersection scalars are :
+-6418.81
+-21.1615
+Here is the matrix A:
+-0.0473839     7.9829
+ 0.0469115   -18.4072
+Here is the vector b:
+-123.347
+ 5.10511
+The intersection scalars are :
+4479.91
+11.1399
+Here is the matrix A:
+0.0624796    7.9829
+0.0234432  -18.4072
+Here is the vector b:
+ 3.42796
+-66.1786
+The intersection scalars are :
+-347.885
+  3.1522
+SCALARS INTERSECT -> -6418.81
+-21.1615 POINT INTERSECT : --->  177.913
+-394.908
+SCALARS INTERSECT -> 4479.91
+11.1399 POINT INTERSECT : ---> -79.9458
+ 199.669
+SCALARS INTERSECT -> -347.885
+  3.1522 POINT INTERSECT : ---> -16.1808
+ 52.6385
+SCALAR for minimum range -> -347.885
+  3.1522 I AM RANGE : 63.2447
+I AM POINTTTT-16.1808
+ 52.6385
+Time:11s
+1: each element : 0
+0
+2: each element : 1.1
+  0
+3: each element :   2.19472
+-0.131842
+4: each element :   3.26841
+-0.394103
+5: each element :   4.30557
+-0.783483
+6: each element :  5.29122
+-1.29485
+7: each element :  6.21107
+-1.92131
+8: each element :  7.05175
+-2.65432
+9: each element :  7.80102
+-3.48379
+10: each element :  8.44789
+-4.39826
+11: each element :   8.9829
+-5.38462

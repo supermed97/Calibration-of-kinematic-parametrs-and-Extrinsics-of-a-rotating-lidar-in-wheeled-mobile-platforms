@@ -22,20 +22,20 @@ void write_to_file(string filename, string text){
 float polinomial(float theta, char dir){
  float approx;
  if (theta <= 1 && theta >=-1){
- if(dir =='x'){
-  approx = 1 - ( pow(theta,2) )/6  + ( pow(theta,4) )/120 - ( pow(theta,6) )/5040 ;
-  }
- else if (dir =='y'){
-  approx = theta/2 - ( pow(theta,3) )/24  + ( pow(theta,5) )/720 ;
-  }
+	if(dir =='x'){
+		approx = 1 - ( pow(theta,2) )/6  + ( pow(theta,4) )/120 - ( pow(theta,6) )/5040 ;
+	}
+	else if (dir =='y'){
+		approx = theta/2 - ( pow(theta,3) )/24  + ( pow(theta,5) )/720 ;
+	}
 }
   else {
-  if(dir =='x'){
-  approx = sin(theta)/theta ;
-  }
- else if (dir =='y'){
-  approx = (1-cos(theta))/theta;
-  }
+	if(dir =='x'){
+		approx = sin(theta)/theta ;
+	}
+	else if (dir =='y'){
+		approx = (1-cos(theta))/theta;
+	}
 }
   return approx;}
   
@@ -102,45 +102,57 @@ void map_to_file(string filename, Vector2fVector& vec_of_points){  // write
 
 	}
 
-Vector2f create_ray(position *Pose_robot, float ray_angle){
+Vector2f create_ray(position *Pose_robot, float ray_angle){ 
+	                      // RAY_LINE : Pose_robot + scalar* ray_dir   
+  cout<< "ray_angle" << ray_angle <<endl;	
   float cartesian_direction = tan(ray_angle); // 
-	
+cout<< "tan(ray_angle) " << tan(ray_angle) <<endl;	
   Eigen::Vector2f vector_direction,P_robot;        															  //cout << "______________" << endl;  cout << "I AM DELTA : " << delta << endl;
   vector_direction(0)=1-(Pose_robot->delta_x); 											             // or 1-( (*Pose_robot).delta_x );
   vector_direction(1)= cartesian_direction*(vector_direction(0));
-  P_robot(0)=Pose_robot->delta_x; P_robot(1)=Pose_robot->delta_y; //
+   cout<< "x in create ray : " << Pose_robot->delta_x << " y : " << Pose_robot->delta_y <<endl;  
+  //P_robot(0)=Pose_robot->delta_x; P_robot(1)=Pose_robot->delta_y; //
+  //
   
-  float length=vector_direction.norm();    cout << "______________" << endl;  cout << "I AM NORM : " << length << endl;
-  int n_points=length*15;  
-  Vector2f ray_dir=vector_direction/n_points;  
-  
-	  return ray_dir;
+  Vector2f ray_dir=vector_direction;  
+  cout<< "I AM RAY_DIRECTION in func-----> " << ray_dir <<endl;
+	  return ray_dir; 
 		}
-Vector2f cast_ray(position *Pose_robot, Vector2f ray_dir, Vector2fVector& ray_points, string filename, Vector2fVector intersections){	
-	Eigen::Vector2f P_robot, point_intersect;     // robots pose and point of intersection     															  //cout << "______________" << endl;  cout << "I AM DELTA : " << delta << endl;
-    float range;   // distance between robots pose and pointS of intersect
-    std::vector<float> ranges; // a ray starting from the robots pose can intersect with all the lines so this vector stores all their ranges
+Vector2f cast_ray(position *Pose_robot, Vector2f ray_dir, Vector2fVector& ray_points, string filename, Vector2fVector intersections, float *range_, float *min_scalar_){	
+	
+	Eigen::Vector2f P_robot, point_intersect;     // declare variable for robots pose and point of intersection     															  //cout << "______________" << endl;  cout << "I AM DELTA : " << delta << endl;
+    float range;   // declare variable for distance between robots pose and point of intersection in environment_line
+    std::vector<float> ranges; // this vector is to stores all the ranges of the rayS starting from a specific robots pose intersecting with the lines
+     
     P_robot(0)=Pose_robot->delta_x; P_robot(1)=Pose_robot->delta_y; 
-	ray_points.push_back(P_robot);
+	
+	
 	for (auto& elem:intersections){ // for each vector (intersection scalars) in intersections
-		point_intersect=P_robot+ray_dir*elem(1); // calculate the point of the intersection 
+		point_intersect=P_robot+ray_dir*elem(1); // calculate the point of the intersection, utilize elem(0) if you wanted to use the env_line equation instead
 		cout<<"SCALARS INTERSECT -> "<<elem << " POINT INTERSECT : ---> " << point_intersect << endl;
 		range = norm2d(P_robot,point_intersect); // calculate the norm or distance or range
 		ranges.push_back(range); // store each range in ranges..
 		}
+		
 	float min_range= *min_element(ranges.begin(), ranges.end()); // take minimum range in ranges
-	for (auto& elem:intersections){
+	for (auto& elem:intersections){     // with mnnum range, reverse engineer the point of intersection that maps to it
 		if( norm2d(P_robot,P_robot+ray_dir*elem(1)) == min_range){
-			point_intersect == P_robot+ray_dir*elem(1); }
+			cout<<"SCALAR for minimum range -> "<<elem ; *min_scalar_ = elem(1);
+			point_intersect = P_robot+ray_dir*elem(1); }
 			
 		}
-	float const minimum_range = 55;	
+	float const minimum_range = 35;	
 	float const max_range = 70;
 	if (norm2d(P_robot,point_intersect)<= max_range && norm2d(P_robot,point_intersect)>= minimum_range){
-		ray_points.push_back(point_intersect);    }
+		ray_points.push_back(P_robot);
+		ray_points.push_back(point_intersect);   
+		*range_ = norm2d(P_robot,point_intersect); cout<<" I AM RANGE : " << *range_ << endl; }
+		else{
+			point_intersect = P_robot;
+			*range_ =0;
+			}
       map_to_file(filename, ray_points);
-       string seperator = "\n";
-      // write_to_file(filename, seperator); 
+      
        return point_intersect;
        
 	}	
@@ -156,14 +168,17 @@ void drawLine(Vector2fVector& dest, const Vector2f& p0, const Vector2f& p1,float
   int n_points=length*density;  
   Vector2f d=delta/n_points;  
   line_info->line_p0 = p0;
-  line_info->line_dir = delta;       														cout << "______________" << endl;  cout << "I AM THE DIRECTION : " << d << endl;
+  line_info->line_dir = d;       														cout << "______________" << endl;  cout << "I AM THE DIRECTION : " << d << endl;
   for (int i=0; i<n_points; ++i) 
     dest.push_back(p0+d*float(i));
   
 }
 	
 
-Vector2f calc_intersection(Vector2f P0, Vector2f line_dir, position *Pose_robot,  Vector2f ray_dir ){
+Vector2f calc_intersection(Vector2f P0, Vector2f line_dir, position *Pose_robot,  Vector2f ray_dir ){ //returns 1x2 vector of intersections
+	// P0 and line_dir are the lines/obstacles to sense in the world parameter
+	// Pose_robot and ray_dir are the ray_parameters
+	
 	 Eigen::Matrix2f A;
    Eigen::Vector2f b;
    A << line_dir(0),-ray_dir(0), 
@@ -190,8 +205,25 @@ float norm2d(Vector2f Start, Vector2f End){
 	  return range; 
 	}
 
+float norm2d(float x1, float y1, float x2, float y2){
+	  float range= pow(x1-x2 ,2) + pow(y1-y2,2);
+	  range = pow(range,0.5);
+	  return range; 
+	}
 
 
+void Filewrite_for_micp(string filename, float time_stamp, position *Pose_robot, float beam_angle, float range, Vector2f& point_intersect, float min_scalar ){  // write 
+	
+	ofstream file(filename, std::ios_base::app);
+    
+    if(norm2d(Pose_robot->delta_x,Pose_robot->delta_y, point_intersect(0),point_intersect(1) ) == range){
+     file << time_stamp << ' ' << Pose_robot->delta_x << ' ' << Pose_robot->delta_y << ' ' << Pose_robot->theta << ' ' << (beam_angle)<< ' ' << range << ' ' << point_intersect(0) << 
+      ' ' << point_intersect(1) << ' ' << min_scalar <<  endl;
+				}
+     
+ file.close();
+
+	}
 
 
 
