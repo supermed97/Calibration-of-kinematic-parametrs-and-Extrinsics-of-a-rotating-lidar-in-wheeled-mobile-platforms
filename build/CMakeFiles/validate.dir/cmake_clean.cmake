@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/validate.dir/eigen_micp_2d_utils.cpp.o"
   "CMakeFiles/validate.dir/eigen_micp_2d.cpp.o"
-  "CMakeFiles/validate.dir/validate_data.cpp.o"
+  "CMakeFiles/validate.dir/myvalidate.cpp.o"
   "validate.pdb"
   "validate"
 )

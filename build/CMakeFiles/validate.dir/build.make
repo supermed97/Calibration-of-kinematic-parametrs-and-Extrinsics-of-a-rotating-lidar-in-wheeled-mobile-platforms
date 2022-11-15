@@ -105,42 +105,42 @@ CMakeFiles/validate.dir/eigen_micp_2d.cpp.o.provides: CMakeFiles/validate.dir/ei
 CMakeFiles/validate.dir/eigen_micp_2d.cpp.o.provides.build: CMakeFiles/validate.dir/eigen_micp_2d.cpp.o
 
 
-CMakeFiles/validate.dir/validate_data.cpp.o: CMakeFiles/validate.dir/flags.make
-CMakeFiles/validate.dir/validate_data.cpp.o: ../validate_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/validate.dir/validate_data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/validate.dir/validate_data.cpp.o -c /home/mohammed/Desktop/Thesis/simulator/validate_data.cpp
+CMakeFiles/validate.dir/myvalidate.cpp.o: CMakeFiles/validate.dir/flags.make
+CMakeFiles/validate.dir/myvalidate.cpp.o: ../myvalidate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/validate.dir/myvalidate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/validate.dir/myvalidate.cpp.o -c /home/mohammed/Desktop/Thesis/simulator/myvalidate.cpp
 
-CMakeFiles/validate.dir/validate_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/validate.dir/validate_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammed/Desktop/Thesis/simulator/validate_data.cpp > CMakeFiles/validate.dir/validate_data.cpp.i
+CMakeFiles/validate.dir/myvalidate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/validate.dir/myvalidate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohammed/Desktop/Thesis/simulator/myvalidate.cpp > CMakeFiles/validate.dir/myvalidate.cpp.i
 
-CMakeFiles/validate.dir/validate_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/validate.dir/validate_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammed/Desktop/Thesis/simulator/validate_data.cpp -o CMakeFiles/validate.dir/validate_data.cpp.s
+CMakeFiles/validate.dir/myvalidate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/validate.dir/myvalidate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohammed/Desktop/Thesis/simulator/myvalidate.cpp -o CMakeFiles/validate.dir/myvalidate.cpp.s
 
-CMakeFiles/validate.dir/validate_data.cpp.o.requires:
+CMakeFiles/validate.dir/myvalidate.cpp.o.requires:
 
-.PHONY : CMakeFiles/validate.dir/validate_data.cpp.o.requires
+.PHONY : CMakeFiles/validate.dir/myvalidate.cpp.o.requires
 
-CMakeFiles/validate.dir/validate_data.cpp.o.provides: CMakeFiles/validate.dir/validate_data.cpp.o.requires
-	$(MAKE) -f CMakeFiles/validate.dir/build.make CMakeFiles/validate.dir/validate_data.cpp.o.provides.build
-.PHONY : CMakeFiles/validate.dir/validate_data.cpp.o.provides
+CMakeFiles/validate.dir/myvalidate.cpp.o.provides: CMakeFiles/validate.dir/myvalidate.cpp.o.requires
+	$(MAKE) -f CMakeFiles/validate.dir/build.make CMakeFiles/validate.dir/myvalidate.cpp.o.provides.build
+.PHONY : CMakeFiles/validate.dir/myvalidate.cpp.o.provides
 
-CMakeFiles/validate.dir/validate_data.cpp.o.provides.build: CMakeFiles/validate.dir/validate_data.cpp.o
+CMakeFiles/validate.dir/myvalidate.cpp.o.provides.build: CMakeFiles/validate.dir/myvalidate.cpp.o
 
 
 # Object files for target validate
 validate_OBJECTS = \
 "CMakeFiles/validate.dir/eigen_micp_2d_utils.cpp.o" \
 "CMakeFiles/validate.dir/eigen_micp_2d.cpp.o" \
-"CMakeFiles/validate.dir/validate_data.cpp.o"
+"CMakeFiles/validate.dir/myvalidate.cpp.o"
 
 # External object files for target validate
 validate_EXTERNAL_OBJECTS =
 
 validate: CMakeFiles/validate.dir/eigen_micp_2d_utils.cpp.o
 validate: CMakeFiles/validate.dir/eigen_micp_2d.cpp.o
-validate: CMakeFiles/validate.dir/validate_data.cpp.o
+validate: CMakeFiles/validate.dir/myvalidate.cpp.o
 validate: CMakeFiles/validate.dir/build.make
 validate: CMakeFiles/validate.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohammed/Desktop/Thesis/simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable validate"
@@ -153,7 +153,7 @@ CMakeFiles/validate.dir/build: validate
 
 CMakeFiles/validate.dir/requires: CMakeFiles/validate.dir/eigen_micp_2d_utils.cpp.o.requires
 CMakeFiles/validate.dir/requires: CMakeFiles/validate.dir/eigen_micp_2d.cpp.o.requires
-CMakeFiles/validate.dir/requires: CMakeFiles/validate.dir/validate_data.cpp.o.requires
+CMakeFiles/validate.dir/requires: CMakeFiles/validate.dir/myvalidate.cpp.o.requires
 
 .PHONY : CMakeFiles/validate.dir/requires
 
